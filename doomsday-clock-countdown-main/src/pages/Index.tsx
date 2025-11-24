@@ -13,7 +13,7 @@ const Index = () => {
   // BASE fixa: 19/08/2025 00:00 (hora local)
   const BASE = useMemo(() => new Date('2025-07-23T00:00:00').getTime(), []);
   // END alvo (ajuste a data que você definiu)
-  const END_TARGET = useMemo(() => new Date('2025-11-25T00:00:00').getTime(), []);
+  const END_TARGET = useMemo(() => new Date('2026-01-15T00:00:00').getTime(), []);
 
   // Progresso decorrido desde BASE até END_TARGET (independente do countdown)
   useEffect(() => {
